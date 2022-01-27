@@ -1,0 +1,43 @@
+h1 {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+}
+main {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 5%;
+}
+main>section>content {
+    display: flex;
+}
+main>section:first-child{
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+    padding-top: 5%;
+    height: 30px;
+    padding-bottom: 5%;
+    font-size: 180%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: right;
+}
+main>section>content>button:last-child {
+    background-color: rgb(241, 75, 14);
+    color: aliceblue;
+}
+main>section>content>button {
+    width: 25%;
+    font-size: large;
+    font-weight: 100;
+    height: 60px;
+}
+.t2 {
+    width: 50%;
+}
+.t3 {
+    width: 75%;
+}
