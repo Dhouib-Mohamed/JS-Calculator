@@ -1,15 +1,22 @@
 h1 {
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5 rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: brown;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 main {
     background-color: gray;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-top: 5%;
+    min-width: 300px;
+    max-width: 400px;
+    margin-top: 3%;
+    align-self: center;
 }
 main>section>content {
     display: flex;
